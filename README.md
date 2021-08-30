@@ -24,3 +24,8 @@ git checkout main // 기본 브랜치가 main인 경우
 git checkout -b 브랜치이름
 ex) git checkout -b apply-feedback
 ```
+--기능 요구 사항(선 길이)
+- [ ] x,y 좌표 모두 최대 24까지만 입력할 수있다.
+--기능 요구 사항(사각형 면적)
+- [ ] 네 점이 뒤틀어진 사딜꼴이나 마름모는 제외하고 직사각형만 허옹하도록 검사한다.
+

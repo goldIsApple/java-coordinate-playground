@@ -1,5 +1,7 @@
-package coordinate;
+package coordinate.model;
 
+import coordinate.model.Line;
+import coordinate.model.Pointer;
 import java.util.Arrays;
 import java.util.List;
 import org.junit.jupiter.api.Test;

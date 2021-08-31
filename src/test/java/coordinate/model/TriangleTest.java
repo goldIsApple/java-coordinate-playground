@@ -1,9 +1,10 @@
-package coordinate;
+package coordinate.model;
 
+import coordinate.model.Pointer;
+import coordinate.model.Triangle;
 import java.util.Arrays;
 import java.util.List;
 import org.assertj.core.api.Assertions;
-import org.assertj.core.data.Offset;
 import org.junit.jupiter.api.Test;
 
 

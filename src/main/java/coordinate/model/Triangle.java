@@ -1,9 +1,9 @@
-package coordinate;
+package coordinate.model;
 
 import java.util.List;
 
 public class Triangle extends AbstractFigure{
-    private static final String OUTPUT_AREA_OF_TRIANGLE = "삼각형의 넓이는 %d";
+    private static final String OUTPUT_AREA_OF_TRIANGLE = "삼각형의 넓이는 %.1f";
     public Triangle(List<Pointer> pointers) {
         super(pointers);
     }

@@ -1,4 +1,4 @@
-package coordinate;
+package coordinate.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class Square extends AbstractFigure{
 
-    private static final String OUTPUT_AREA_OF_SQUARE = "사각형의 넓이는 %d";
+    private static final String OUTPUT_AREA_OF_SQUARE = "사각형의 넓이는 %.0f";
     public static final int NUM_OF_TYPES_OF_SQUARE_COORDINATES = 2;
 
     public Square(List<Pointer> pointers) {

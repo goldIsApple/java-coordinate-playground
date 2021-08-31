@@ -1,5 +1,6 @@
-package coordinate;
+package coordinate.model;
 
+import coordinate.model.Pointer;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.*;

@@ -1,4 +1,4 @@
-package coordinate;
+package coordinate.model;
 
 import java.util.Objects;
 
@@ -60,7 +60,7 @@ public class Pointer {
 
     @Override
     public String toString() {
-        return "coordinate.Pointer{" +
+        return "coordinate.model.Pointer{" +
                 "x=" + x +
                 ", y=" + y +
                 '}';
